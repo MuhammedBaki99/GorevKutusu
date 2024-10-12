@@ -1,0 +1,13 @@
+header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  gap: 20px;
+
+  img {
+    background: #1E1E1E;
+    padding: 10px;
+    border-radius: 50%;
+  }
+}
