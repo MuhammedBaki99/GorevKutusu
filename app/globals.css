@@ -28,6 +28,7 @@ button,
 textarea,
 select {
   font: inherit;
+  cursor: pointer;
 }
 
 p,
@@ -43,4 +44,8 @@ h6 {
 #root,
 #__next {
   isolation: isolate;
+}
+
+svg{
+  width: 20px;
 }

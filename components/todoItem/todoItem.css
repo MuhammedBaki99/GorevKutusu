@@ -1,0 +1,47 @@
+.todoDetayItem {
+  width: 1400px;
+  height: 700px;
+  margin: 10px;
+  padding: 10px;
+  border-radius: 10px;
+  color: white;
+  background: #28282d;
+  display: grid;
+  grid-template-rows: 15% 70% 15%; 
+  animation: tododetay .8s ease-in-out;
+}
+
+@keyframes tododetay {
+  0% {
+    transform: rotateX(90deg);
+  }
+
+  100% {
+    transform: rotateX(0deg);
+  }
+
+}
+
+.detayHead {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+  border-bottom: 2px solid white;
+  padding: 20px;
+
+  button {
+    background: transparent;
+    border: none;
+
+    svg{
+      width: 40px;
+    }
+  }
+}
+
+.todoDesc {
+  padding: 20px;
+  border-bottom: 2px solid white;
+}
